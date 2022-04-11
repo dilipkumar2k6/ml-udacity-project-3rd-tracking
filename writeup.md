@@ -50,8 +50,8 @@ Sensor Fusion and Object Tracking using Resnet for each steps.
 ## 3 - After making changes for Data Association
 ![](assets/Step%20-%203%20-%20Multi%20target%20tracking%20result.png)
 
-![]('assets/Step%20-%203%20-%20Multi%20target%20tracking%20RMSE.png')
-## 2 - After making changes for Camera-Lidar Sensor Fusion
-![]('assets/Step%20-%204%20-%20Multi%20target%20tracking%20result.png')
+![](assets/Step%20-%203%20-%20Multi%20target%20tracking%20RMSE.png)
+## 4 - After making changes for Camera-Lidar Sensor Fusion
+![](assets/Step%20-%204%20-%20Multi%20target%20tracking%20result.png)
 
-![]('assets/Step%20-%204%20-%20Multi%20target%20tracking%20RMSE.png')
+![](assets/Step%20-%204%20-%20Multi%20target%20tracking%20RMSE.png)
