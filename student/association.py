@@ -169,6 +169,8 @@ class Association:
         ############ 
     
     def associate_and_update(self, manager, meas_list, KF):
+        if len(meas_list) == 0:
+            return        
         # associate measurements and tracks
         self.associate(manager.track_list, meas_list, KF)
     
@@ -190,8 +192,9 @@ class Association:
             print('update track', track.id, 'with', meas_list[ind_meas].sensor.name, 'measurement', ind_meas)
             KF.update(track, meas_list[ind_meas])
             
-            # update score and track state 
-            manager.handle_updated_track(track)
+            # update score and track state
+            if meas_list[0].sensor.name == 'lidar':            
+                manager.handle_updated_track(track)
             
             # save updated track
             manager.track_list[ind_track] = track
