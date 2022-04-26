@@ -12,6 +12,7 @@
 
 # imports
 import numpy as np
+import math
 from scipy.stats.distributions import chi2
 
 # add project directory to python path to enable relative imports
